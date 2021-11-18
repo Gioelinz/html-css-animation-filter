@@ -103,11 +103,20 @@
     filter: grayscale(0.4) sepia(0.4);
 }
 
+/* My solution #9 */
 
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: transform, border-radius, filter, linear 1s;
 }
+
+.ex-9-img:hover{
+    transform: scale(1.5);
+    border-radius: 20px;
+    filter: grayscale(0.5) sepia(0.5);
+}
+
 .ex-10-icon {
     font-size: 60px;
 }
