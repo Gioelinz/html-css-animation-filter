@@ -117,9 +117,21 @@
     filter: grayscale(0.5) sepia(0.5);
 }
 
+/* My solution #10 */
+
 .ex-10-icon {
     font-size: 60px;
+    animation: spin 1s linear infinite;
 }
+
+@keyframes spin {
+    from{
+        transform: rotate(1turn);
+    }
+}
+
+
+
 .ex-11-icon {
     font-size: 60px;
 }
